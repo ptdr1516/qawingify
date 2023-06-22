@@ -44,7 +44,7 @@ This repository contains automation scripts for testing the Login Page and Home 
   4. Click on the "Login" button.
 - Expected Result: The application should display an error message indicating that the login fields are required.
 
-#### Test Case 5: Verify Remember Me Functionality
+#### Test Case 4: Verify Remember Me Functionality
 - Description: Verify that the "Remember Me" checkbox retains the user's login state.
 - Steps:
   1. Launch the application URL.
