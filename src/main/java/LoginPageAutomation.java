@@ -18,7 +18,7 @@ public class LoginPageAutomation {
         // Testing login with valid credentials
         WebElement usernameInput = driver.findElement(By.id("username"));
         WebElement passwordInput = driver.findElement(By.id("password"));
-        WebElement loginButtton = driver.findElement(By.xpath("//button[contains(text(), 'login')]"));
+        WebElement loginButtton = driver.findElement(By.xpath("//button[@id='log-in']"));
 
         usernameInput.sendKeys("ptdr1516");
         passwordInput.sendKeys("abc123@");
