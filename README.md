@@ -63,6 +63,5 @@ This repository contains automation scripts for testing the Login Page and Home 
 - Precondition: The user is logged in and on the Home Page.
 - Steps:
   1. Click on the "Amount" header in the transaction table.
-- Expected Result: The values in the transaction table should be sorted in ascending or descending order based on the Amount column.'
-
+- Expected Result: The values in the transaction table should be sorted in ascending or descending order based on the Amount column.
 

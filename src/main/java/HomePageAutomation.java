@@ -10,7 +10,7 @@ public class HomePageAutomation {
    
     public static void main(String[] args) {
          // set the path to the chrome driver executable
-         System.setProperty("webdriver.chrome.driver", "C:/Users/Ptdr/Desktop/Interview Assessment/chromedriver_win32/chromedriver.exe");
+         System.setProperty("webdriver.chrome.driver", "C:/Users/Ptdr/Desktop/Interview Assessment/QA/my-project/chromedriver_win32/chromedriver.exe");
 
          // create a new instance of ChromeDriver
          WebDriver driver = new ChromeDriver();
@@ -35,7 +35,7 @@ public class HomePageAutomation {
             e.printStackTrace();
          }
 
-         // click on the AMOUNT header to sort the values
+         // click functionality on 'amount' header to sort the values
          WebElement amountHeader = driver.findElement(By.xpath("//th[@id='amount']"));
          amountHeader.click();
 
